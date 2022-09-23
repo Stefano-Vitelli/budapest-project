@@ -1,8 +1,8 @@
 const RedesSociales = () => {
      return (  
-          
  <div className="full-container-redes">
           <div className="container-redes">
+               
                <a href="https://github.com/Stefano-Vitelli" target="_blank" rel="nofollow noopener noreferrer">
                     <div className="redes-sociales-github">
                          <div className="logotipo-github">

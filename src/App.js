@@ -11,9 +11,9 @@ function App() {
     <div className="content">
       <main className="main-content">
          <Navbar />
-        <Interactive />
-        <RedesSociales />
       </main>
+      <Interactive />
+      <RedesSociales />
     </div>
   );
 }
