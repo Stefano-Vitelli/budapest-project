@@ -15,7 +15,7 @@ root.render(
     <BrowserRouter>
         <Routes>
             <Route path='/' element={<App />} />
-            <Route path='contact-form' element={<ContactUs/>} />
+            <Route path='/contact-form' element={<ContactUs/>} />
             <Route path="/resumen.pdf" element={<BriefStorie />} />
         </Routes>
     </BrowserRouter>
