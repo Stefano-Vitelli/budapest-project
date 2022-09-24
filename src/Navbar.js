@@ -18,11 +18,15 @@ const Navbar = () => {
                                    <p>
                                    I am twenty-six years old Argentinian-Italian citizen, that never wants to stop learning. 
                                    After finishing my two degrees in my home country, I decided to move to Europe 
-                                   to broaden the horizon of knowledge and develope new skills.
-                                   Currently I am a Trainee Web Developer who is looking to a continue growing with one aim:
-                                   become a Full Stack Developer. 
+                                   to broaden the horizon of knowledge, develope new skills and learn about new cultures.
+                                   <br/> Currently I am a Trainee Web Developer, based in Budapest, who is looking to a continue
+                                   growing with one aim: become a Full Stack Developer. 
                                    </p>
-                              </div>
+                              <h3 className='four-header'> To be more precise...</h3>
+                              <p>Let me show you the reason behind this change and discover a little bit more about me  </p>
+
+                              <img src="/Imagenes Web/stars-custom.svg" alt="stars-sky" className="stars-end"/>
+                         </div>
                               
 
                          

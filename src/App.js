@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Interactive from "./Interactive";
 import RedesSociales from "./RedesSociales";
 import { ContactUs } from "./ContactForm";
 import DinamicNavBar from "./DinamicNavBar";
@@ -14,7 +13,6 @@ function App() {
       <DinamicNavBar />
          <Navbar />
       </main>
-      <Interactive />
       <RedesSociales />
     </div>
   );

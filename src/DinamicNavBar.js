@@ -10,7 +10,7 @@ const DinamicNavBar = () => {
                <div className="information">
                     <ol className="ordered-list">
                          <li className="life-resume">
-                              <a href="/CV-STEFANO-VITELLI.pdf" target="_blank" rel="nofollow noopener noreferrer">Life Resume</a>
+                              <a href="/cv.pdf" target="_blank" rel="nofollow noopener noreferrer">Life Resume</a>
                          </li>
                          <li className="ContactMe">
                               <a href="/contact-form" target="_blank">Contact me</a>
