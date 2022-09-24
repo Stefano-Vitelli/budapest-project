@@ -6,11 +6,11 @@ const Navbar = () => {
                          <h2 className="own-name">Stefano Vitelli</h2>
                               <div className="paragraph">
                                    <p>
-                                        I am a Trainee Web Developer based in Budapest, HU. <br/>
-                                        My style pretends to build simple but powerful websites.
-                                        
+                                        Trainee Web Developer currently based in Budapest, HU. <br/>
+                                        My style pretends to build simple but powerful websites.     
                                    </p>
                               </div>
+                              
 
                               <h4>Let me share with you my brief storie <br/> built around my own life.
                </h4>

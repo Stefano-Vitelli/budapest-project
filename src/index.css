@@ -4,6 +4,7 @@
   box-sizing: inherit;
 }
 
+
 body {
   margin: 0px;
   width: 100%;
@@ -84,4 +85,123 @@ h1, h2, h3, h4, h5{
 }
 .container-redes {
   background-color: #ccc;
+}
+
+.side-container {
+  width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 1.3em;
+}
+
+.social-media::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: rgb(168, 178, 209);
+}
+
+.iconoGitHub:hover {
+  cursor: pointer;
+  background-color: rgb(49, 51, 58);
+  box-shadow: 1px 1px rgb(168, 178, 209);
+  border-radius: 30%; 
+}
+.logo-whatsapp:hover {
+  cursor: pointer;
+  background-color: rgb(49, 51, 58);
+  box-shadow: 1px 1px rgb(168, 178, 209);
+  border-radius: 30%;
+}
+
+.linkedin:hover {
+  cursor: pointer;
+  background-color: rgb(49, 51, 58);
+  box-shadow: 1px 1px rgb(168, 178, 209);
+  border-radius: 30%;
+}
+.linkedin {
+  margin-bottom: 18px;
+}
+
+li {
+  display: list-item;
+}
+
+p {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.stars {
+  padding-left: 40px;
+  padding-top: 20px;
+  display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.ordered-list {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+ol a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    cursor: pointer;
+    padding-left: 2em;
+    font-size: 0.7em;
+}
+
+ol a:hover {
+  color: #fff;
+}
+
+.nav-style {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    color: rgb(204, 214, 246);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    counter-reset: item 0;
+    z-index: 12;
+}
+ol {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }

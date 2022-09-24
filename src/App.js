@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Interactive from "./Interactive";
 import RedesSociales from "./RedesSociales";
 import { ContactUs } from "./ContactForm";
+import DinamicNavBar from "./DinamicNavBar";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="content">
       <main className="main-content">
+      <DinamicNavBar />
          <Navbar />
       </main>
       <Interactive />
