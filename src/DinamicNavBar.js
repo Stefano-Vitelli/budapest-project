@@ -1,25 +1,24 @@
 const DinamicNavBar = () => {
      return ( 
+          <header className="navegation">
           <nav className="nav-style">
                <div className="personal-logo">
                     <a href="/" aria-label="home">
-                         <img src="/Imagenes Web/stars-custom.svg" alt="stars-sky" className="stars"/>
+                         <img src="/Imagenes Web/cib-skyliner-white.svg" alt="stars-sky" className="stars"/>
                     </a>
                </div>
                <div className="information">
                     <ol className="ordered-list">
-                         <li className="about-me">
-                              <a href="/about">About me</a>
-                         </li>
-                         <li className="Portfolio">
-                              <a href="/portfolio">Portfolio</a>
+                         <li className="life-resume">
+                              <a href="/CV-STEFANO-VITELLI.pdf" target="_blank" rel="nofollow noopener noreferrer">Life Resume</a>
                          </li>
                          <li className="ContactMe">
-                              <a href="/contact">Contact me</a>
+                              <a href="/contact-form" target="_blank">Contact me</a>
                          </li>
                     </ol>
                </div>
           </nav>
+     </header>
       );
 }
  
