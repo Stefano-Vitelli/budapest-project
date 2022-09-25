@@ -4,7 +4,6 @@
   box-sizing: inherit;
 }
 
-
 body {
   margin: 0px;
   width: 100%;
@@ -30,26 +29,22 @@ body {
     align-items: center;
 }
 
-p{
+p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
 .main-content {
   margin: 0px auto;
   max-width: 1600px;
   min-height: 100vh;
   
-  background-image: url("");
-  background-repeat: no-repeat;
 }
 
 .section-container {
-    background-image: url("");
-    background-position-y: top;
-    background-repeat: no-repeat;
   background-color: black;
   background-size: 100%;
   min-height: 100%;
@@ -58,19 +53,12 @@ p{
   overflow-x: hidden;
   font-size: 30px;
   color: #ccc;
-    background-position: 0%;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 40%;
-}
-
-.imagen-colibri {
-    background-image:url("");
-    background-repeat: no-repeat;
-    height: 100px;
-    background-position: 60%;
+  background-position: 0%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40%;
 }
 
 h4 {
@@ -85,21 +73,23 @@ h4 {
 }
 
 h1 {
-  color: #fff;
-  
+  color: #fff; 
 }
+
 h2 {
   font-size: 25px;
 }
+
 h2, h3, h4, h5{
   color: #ccc;
 }
+
 .container-redes {
   background-color: #ccc;
 }
 
 .side-container {
-  width: 40px;
+    width: 40px;
     position: fixed;
     bottom: 0px;
     left: 40px;
@@ -116,7 +106,7 @@ h2, h3, h4, h5{
     padding: 0px;
     margin: 0px;
     list-style: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .social-media::after {
@@ -128,25 +118,26 @@ h2, h3, h4, h5{
   background-color: rgb(168, 178, 209);
 }
 
+.linkedin{
+  padding-top: 8px;
+}
+
 .iconoGitHub:hover {
   cursor: pointer;
-  background-color: rgb(49, 51, 58);
-  box-shadow: 1px 1px rgb(168, 178, 209);
+  font-size: 15px;
   border-radius: 30%; 
 }
+
 .logo-whatsapp:hover {
   cursor: pointer;
-  background-color: rgb(49, 51, 58);
-  box-shadow: 1px 1px rgb(168, 178, 209);
   border-radius: 30%;
 }
 
 .linkedin:hover {
   cursor: pointer;
-  background-color: rgb(49, 51, 58);
-  box-shadow: 1px 1px rgb(168, 178, 209);
   border-radius: 30%;
 }
+
 .linkedin {
   margin-bottom: 18px;
 }
@@ -157,13 +148,13 @@ li {
 
 p {
   padding-left: 20%;
-  padding-right: 20%;
-  
+  padding-right: 20%;  
 }
+
 .stars {
-  padding-left: 40px;
-  padding-top: 20px;
-  display: flex;
+    padding-left: 40px;
+    padding-top: 20px;
+    display: flex;
     -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: center;
@@ -199,6 +190,7 @@ ol a {
 span {
   font-size: 35px;
 }
+
 ol a:hover {
   color: #f3da35;
 }
@@ -218,6 +210,7 @@ ol a:hover {
     z-index: 12;
   
 }
+
 ol {
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -241,9 +234,7 @@ h3 {
 }
 
 .stars-paragraph {
-
   padding-top: 4.5em;
-
 }
 
 .stars-end {
@@ -252,7 +243,7 @@ h3 {
 }
 
 .motiv-letter {
-  display: flex;
+    display: flex;
     -webkit-box-pack: justify;
     justify-content: center;
     -webkit-box-align: center;
@@ -263,13 +254,11 @@ h3 {
 }
 
 .formulario {
-     
      background-image: url("/public/Imagenes\ Web/astro.jpg");
      background-repeat: no-repeat;
      background-position: 100%;
      background-size: 100%;
      background-size: 8em;
-    
      --tw-text-opacity: 1;
      color: rgba(248,195,7,var(--tw-text-opacity));
      width: 100%;

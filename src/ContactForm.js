@@ -1,13 +1,14 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
+
 export const ContactUs = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_8bue1sf", "template_tlgzwa7", e.target, "5VGnKi4JYGDNAGYwF")
+    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE, process.env.REACT_APP_EMAILJS_TEMPLATE, e.target, process.env.REACT_APP_EMAILJS_APIKEY)
       .then((result) => {
           console.log(result.text);
       }, (error) => {

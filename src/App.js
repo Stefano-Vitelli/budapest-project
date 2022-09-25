@@ -4,24 +4,19 @@ import RedesSociales from "./RedesSociales";
 import { ContactUs } from "./ContactForm";
 import DinamicNavBar from "./DinamicNavBar";
 
-
-
 function App() {
-  
   return (
     <div className="content">
       <main className="main-content">
-      <DinamicNavBar />
-         <Navbar />
+          <DinamicNavBar />
+          <Navbar />
       </main>
-      <RedesSociales />
+          <RedesSociales />
     </div>
   );
 }
 
 export default App;
-
-
 
 const WebRoutesToPass = () => {
   return(
@@ -36,15 +31,12 @@ const LinksContainer = ({children}) => {
     <div>
       {children}
     </div>
-
   );
 }
 
 export const WebRoutes = (props) => {
   return (
-
    <div>
-     
       <LinksContainer>
       <WebRoutesToPass />
       </LinksContainer>

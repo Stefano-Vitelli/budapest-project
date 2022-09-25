@@ -4,9 +4,6 @@ import './index.css';
 import App from './App';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import { ContactUs } from './ContactForm';
-import BriefStorie from './BriefStory';
-
-
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,12 +12,10 @@ root.render(
     <BrowserRouter>
         <Routes>
             <Route path='/' element={<App />} />
-            <Route path='/contact-form' element={<ContactUs/>} />
-            <Route path="/resumen.pdf" element={<BriefStorie />} />
+            <Route path='/contact-form' element={<ContactUs/>} /> 
         </Routes>
     </BrowserRouter>
   </React.StrictMode>
-  
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -3,23 +3,22 @@ const RedesSociales = () => {
           <div aria-orientation="vertical" className="side-container">
                <ul className="social-media">
                     <li>
-                              <a href="https://github.com/Stefano-Vitelli" target="_blank" rel="nofollow noopener noreferrer">
-                              <img className="iconoGitHub" src="/Imagenes Web/github-white.svg" alt="gato github" /></a> 
+                          <a href="https://github.com/Stefano-Vitelli" target="_blank" rel="nofollow noopener noreferrer">
+                          <img className="iconoGitHub" src="/Imagenes Web/github-white.svg" alt="gato github" /></a> 
                     </li>
-                         <li> 
+                    
+                    <li> 
                               <a href="https://web.whatsapp.com/" target="_blank" rel="nofollow noopener noreferrer">
                               <img className="logo-whatsapp" src="/Imagenes Web/whatsapp-white.svg" alt="whatsapp" /></a>
-                         </li>
+                    </li>
                     
-                         <li> 
-                              <a href="https://www.linkedin.com/in/stefano-vitelli-01931a17a/" target="_blank" rel="nofollow noopener noreferrer">
-                              <img className="linkedin" src="/Imagenes Web/linkedInV2-fill-white.svg" alt="LinkedIn" /></a>
-                          </li>
-     
+                    <li> 
+                                   <a href="https://www.linkedin.com/in/stefano-vitelli-01931a17a/" target="_blank" rel="nofollow noopener noreferrer">
+                                   <img className="linkedin" src="/Imagenes Web/linkedInV2-fill-white.svg" alt="LinkedIn" /></a>
+                    </li>
                </ul>
           </div>    
-     
-);
+          );
 }
 
 export default RedesSociales;
