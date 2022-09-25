@@ -6,8 +6,8 @@ export const ContactUs = () => {
  
   return (
 
-    <div className="parafoto" method="POST" data-netlify="true">
-     <form ref={form} onSubmit={sendEmail} className="formulario" required>
+    <div className="parafoto" method="POST" data-netlify="true" onSubmit="submit">
+     <form className="formulario" required>
        <label>Name</label>
        <input type="text" name="name" className='user-name' placeholder='Write your name' minLength='5' maxLength='25' required />
        <label>Email</label>
