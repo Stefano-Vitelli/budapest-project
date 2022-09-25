@@ -1,25 +1,12 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+
 
 
 export const ContactUs = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE, process.env.REACT_APP_EMAILJS_TEMPLATE, e.target, process.env.REACT_APP_EMAILJS_APIKEY)
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset();
-  };
-
+ 
   return (
 
-    <div className="parafoto" method="POST" netlify data-netlify="true">
+    <div className="parafoto" method="POST" data-netlify="true">
      <form ref={form} onSubmit={sendEmail} className="formulario" required>
        <label>Name</label>
        <input type="text" name="name" className='user-name' placeholder='Write your name' minLength='5' maxLength='25' required />
