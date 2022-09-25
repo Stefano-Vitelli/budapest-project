@@ -8,7 +8,7 @@
 body {
   margin: 0px;
   width: 100%;
-  background-image:url("C:\Users\USUARIO\Documents\budapest-project\public\Imagenes Web\earth.avif");
+  background-image:url("");
   background-repeat: no-repeat;
   background-color: black;
   background-size: cover;
@@ -20,12 +20,12 @@ body {
   font-size: 30px;
   color: #ccc;
 }
-.full-section{
 
-  background-image: url("");
-}
 .begining {
-  display: flex;
+    background-image: url("C:\Users\USUARIO\Documents\budapest-project\public\Imagenes Web\earth.avif");
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -213,7 +213,7 @@ ol a:hover {
     position: relative;
     width: 100%;
     color: rgb(204, 214, 246);
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-family: "Times New Roman";
     counter-reset: item 0;
     z-index: 12;
   
@@ -249,4 +249,66 @@ h3 {
 .stars-end {
   padding-left: 50%;
   padding-top: 10%;
+}
+
+.motiv-letter {
+  display: flex;
+    -webkit-box-pack: justify;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.formulario {
+     
+     background-image: url("C:\Users\USUARIO\Documents\budapest-project\public\Imagenes Web\8e25a53a379ca563ada02437400f043e.jpg");
+     background-repeat: no-repeat;
+     background-position: 100%;
+     background-size: 100%;
+     background-size: 8em;
+    
+     --tw-text-opacity: 1;
+     color: rgba(248,195,7,var(--tw-text-opacity));
+     width: 100%;
+     height: 92vh;
+     display:flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+}
+
+select, textarea, .email{ 
+  width: 40%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+.user-name {
+ width: 40%;
+ padding: 15px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ margin-top: 8px;
+ margin-bottom: 20px;
+ resize: vertical
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  width: 40%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  resize: vertical;
+  cursor: pointer;
 }
