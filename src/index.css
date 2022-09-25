@@ -22,7 +22,7 @@ body {
 }
 
 .begining {
-    background-image: url("/public/Imagenes\ Web/earth.avif");
+    background-image: url("");
     background-position: top;
     background-repeat: no-repeat;
     display: flex;
