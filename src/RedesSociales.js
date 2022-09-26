@@ -9,7 +9,7 @@ const RedesSociales = () => {
                     </li>
                     
                     <li> 
-                              <a href="https://web.whatsapp.com/" target="_blank">
+                              <a href="https://www.whatsapp.com/" target="_blank">
                               <img className="logo-whatsapp" src="/Imagenes Web/whatsapp-white.svg" alt="whatsapp" /></a>
                     </li>
                     
