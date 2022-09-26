@@ -13,7 +13,7 @@ const DinamicNavBar = () => {
                                    <a href="/cv.pdf" target="_blank" rel="nofollow noopener noreferrer">Life Resume</a>
                               </li>
                               <li className="ContactMe">
-                                   <a href="/contact-form" target="_blank">Contact me</a>
+                                   <a href="mailto:stefanovitelli9@gmail.com" target="_blank">Contact me</a>
                               </li>
                          </ol>
                     </div>

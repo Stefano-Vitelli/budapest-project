@@ -2,6 +2,7 @@ const RedesSociales = () => {
      return (  
           <div aria-orientation="vertical" className="side-container">
                <ul className="social-media">
+
                     <li>
                           <a href="https://github.com/Stefano-Vitelli" target="_blank" rel="nofollow noopener noreferrer">
                           <img className="iconoGitHub" src="/Imagenes Web/github-white.svg" alt="gato github" /></a> 
@@ -16,6 +17,7 @@ const RedesSociales = () => {
                                    <a href="https://www.linkedin.com/in/stefano-vitelli-01931a17a/" target="_blank" rel="nofollow noopener noreferrer">
                                    <img className="linkedin" src="/Imagenes Web/linkedInV2-fill-white.svg" alt="LinkedIn" /></a>
                     </li>
+               
                </ul>
           </div>    
           );
