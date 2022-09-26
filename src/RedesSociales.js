@@ -1,6 +1,6 @@
 const RedesSociales = () => {
      return (  
-          <div aria-orientation="vertical" className="side-container">
+          <div className="side-container">
                <ul className="social-media">
 
                     <li>

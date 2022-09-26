@@ -1,7 +1,36 @@
 
 @media only screen and(max-width : 23.5em) {
   .first-header {
-    font-size: 40px;
+    font-size: 30px;
+}
+}
+
+@media only screen and (max-width : 900px) {
+  .main-content {
+    font-size: 18px; 
+  }
+  .span {
+    font-size: 14px;
+  }
+  .own-name {
+    font-size: 12px;
+  }
+  .third-header {
+    font-size: 20px;
+  }
+  p {
+    padding: 0 auto;
+    font-size: 12px;
+  }
+  .four-header {
+    font-size: 20px;
+  }
+  .second-paragraph {
+    padding: 0 auto;
+    font-size: 12px;
+  }
+  .social-media::after {
+    display: none;
   }
 }
 
@@ -13,14 +42,23 @@
   h1 {
     font-size: 18px;
   }
+  .social-media::after {
+    display: none;
+  }
 }
 @media only screen and(max-width : 48em) {
   .main-content {
     padding-top: 0px;
     padding-bottom: 0px;
   }
+  .side-container {
+    display: block;
+  }
   .first-header {
     font-size: 13px;
+  }
+  .social-media::after {
+    display: none;
   }
 }
 
@@ -32,6 +70,9 @@
   .first-header {
     font-size: 13px;
   }
+  .social-media::after {
+    display: none;
+  }
 }
 
 @media only screen and(max-width : 30em) {
@@ -41,6 +82,9 @@
   .first-header{
     font-size: 13px;
   }
+  .social-media::after {
+    display: none;
+  }
 }
 
 @media only screen and(max-width : 48em) {
@@ -49,6 +93,9 @@
   }
   .first-header {
     font-size: 13px;
+  }
+  .social-media::after {
+    display: none;
   }
 }
 @media only screen and(max-width : 62.5em) {

@@ -23,7 +23,7 @@ const Navbar = () => {
                               </p>
 
                                         <h3 className='four-header'> To be more precise...</h3>
-                              <p>  
+                              <p className='second-paragraph'>  
                                    When I decided to change my profession, I did it in pursuit of personal and professional growth in areas that were unknown to me until then.
                                    I believe that we have the freedom to choose and it is our decisions that define the path of our own life. 
                                    <br/><br/>
