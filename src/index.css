@@ -1,5 +1,5 @@
 
-@media only screen and(max-width : 23.5em) {
+@media only screen and(max-width: 375px) {
   .first-header {
     font-size: 30px;
 }
@@ -37,7 +37,7 @@
   }
 }
 
-@media only screen and(max-width : 30em) {
+@media only screen and(max-width : 480px) {
   .main-content {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -52,7 +52,7 @@
     display: none;
   }
 }
-@media only screen and(max-width : 48em) {
+@media only screen and(max-width : 768px) {
   .main-content {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -68,7 +68,7 @@
   }
 }
 
-@media only screen and(max-width : 62.5em) {
+@media only screen and(max-width: 1000px) {
   .main-content {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -81,7 +81,7 @@
   }
 }
 
-@media only screen and(max-width : 30em) {
+@media only screen and(max-width : 480px) {
   body {
     font-size: 18px;
   }
@@ -96,7 +96,7 @@
   }
 }
 
-@media only screen and(max-width : 48em) {
+@media only screen and(max-width : 768px) {
   .navegation {
    padding: 0px 25px;;
   }
@@ -107,7 +107,7 @@
     display: none;
   }
 }
-@media only screen and(max-width : 62.5em) {
+@media only screen and(max-width : 1000px) {
   .navegation {
    padding: 0px 40px;;
   }
@@ -116,7 +116,7 @@
   }
 }
 
-@media only screen and(max-width : 48em) {
+@media only screen and(max-width : 768px) {
   .side-container{
    display:block;
   }
@@ -124,7 +124,7 @@
     font-size: 13px;
   }
 }
-@media only screen and(max-width : 62.5em) {
+@media only screen and(max-width : 1000px) {
   .side-container{
    right:25px;
   }
@@ -405,7 +405,6 @@ h3 {
     align-items: center;
     padding: 0px;
     margin: 0px;
-    
     text-decoration: underline #f3da35;
     font-size: 1.3em;
 }

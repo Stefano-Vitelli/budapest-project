@@ -18,14 +18,14 @@ const Navbar = () => {
                                    I am twenty-six years old Argentinian-Italian citizen, that never wants to stop learning. 
                                    Four years ago after finishing my two degrees in my home country, I decided to move to Europe 
                                    to broaden the horizon of knowledge, develope new skills and learn about new cultures.
-                                   <br/> Currently I am a Trainee Web Developer, based in Budapest, who is looking to a continue
-                                   growing with one aim: become a Full Stack Developer.  
+                                   <br/> Currently I am a Trainee Web Developer, based in Budapest, on the way to becoming a 
+                                   Full Stack Developer.  
                               </p>
 
                                         <h3 className='four-header'> To be more precise...</h3>
                               <p className='second-paragraph'>  
-                                   When I decided to change my profession, I did it in pursuit of personal and professional growth in areas that were unknown to me until then.
-                                   I believe that we have the freedom to choose and it is our decisions that define the path of our own life. 
+                                   When I decided to change my profession, I did it in pursuit of professional growth in areas that were unknown to me until then.
+                                   I believe that we have the freedom to choose and our decisions define the path of our own life. 
                                    <br/><br/>
                                    Let me share my own path with you.
                                    <br /><br /><br />
