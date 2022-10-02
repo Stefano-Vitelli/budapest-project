@@ -9,31 +9,24 @@ const Navbar = () => {
                               delaySpeed={20000}
                               words={["' Your life does not get better by chance, it gets better by change.'"]} />
                     </div>
-                              <h1 className="first-header"> I'm Stefano Vitelli</h1>
-                              <h2 className="own-name">a very curious man</h2>
+                              <h1 className="first-header">I'm Stefano Vitelli</h1>
+                              <h2 className="own-name"> Web Developer</h2>
                               <img src="/Imagenes Web/stars-custom.svg" alt="stars-sky" className="stars-paragraph"/>
                          <div className="paragraph">
                                         <h3 className="third-header">About me</h3>
                               <p>
-                                   I am twenty-six years old Argentinian-Italian citizen, that never wants to stop learning. 
-                                   Four years ago after finishing my two degrees in my home country, I decided to move to Europe 
-                                   to broaden the horizon of knowledge, develope new skills and learn about new cultures.
-                                   <br/> Currently I am a Trainee Web Developer, based in Budapest, on the way to becoming a 
-                                   Full Stack Developer.  
+                                   My name is Stefano Vitelli, a very passionate Trainee Web Developer who always have this two questions in mind into a working team...<br/><br/>
+                                   What make us different? and How can we create an impact?
+
+                                  I have been working with a few technologies like HTML, CSS, JS and REACT to answer these questions and create simple, but powerful websites.
+                                   
                               </p>
 
-                                        <h3 className='four-header'> To be more precise...</h3>
+                                        <h3 className='four-header'>To be more precise...</h3>
                               <p className='second-paragraph'>  
-                                   When I decided to change my profession, I did it in pursuit of professional growth in areas that were unknown to me until then.
-                                   I believe that we have the freedom to choose and our decisions define the path of our own life. 
-                                   <br/><br/>
-                                   Let me share my own path with you.
-                                   <br /><br /><br />
-                                        <ol>
-                                             <li className='motiv-letter'>
-                                                  <a href="/Motivation-letter.pdf" target="_blank" rel="nofollow noopener noreferrer">Letter</a> 
-                                             </li>
-                                        </ol>
+                              There are a lot of answers to the same question but I believe what makes you different is the attitude combined with the hard work. Simple?...yes Easy? Of course not...
+
+                              
                               </p>
                               
                               <img src="/Imagenes Web/stars-custom.svg" alt="stars-sky" className="stars-end"/>
