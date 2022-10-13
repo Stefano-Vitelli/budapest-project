@@ -33,33 +33,37 @@ span, .interactive, .begining {
 }
 .third-header, .four-header {
   font-size: 18px;
+} 
+
+.interactive span{
+  font-size: 20px;
 }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media (max-width: 410px) {
 
-  
+  .stars-end {
+    display: none;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 932px) {
   
+.first-header {
+  font-size: 35px;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+.interactive span {
+  font-size: 20px;
+}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
-
-
-
-
-
-
-
-
+.third-header, p, .four-header {
+  font-size: 19px;
+}
+}
 
 * {
   margin: 0;
@@ -252,6 +256,7 @@ ol a {
 
 span {
   font-size: 35px;
+  color: white;
 }
 
 ol a:hover {

@@ -4,7 +4,7 @@ const Navbar = () => {
      return ( 
                <div className="begining">
                     <div className="interactive">
-                         <Typewriter 
+                         <Typewriter className="text-change"
                               typeSpeed={86}
                               delaySpeed={20000}
                               words={["' Your life does not get better by chance, it gets better by change.'"]} />
