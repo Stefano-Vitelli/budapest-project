@@ -1,7 +1,8 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .nav-style {
-    font-size: 19px;
+    font-size: 25px;
+    padding-top: 4%;
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -13,8 +14,9 @@
     font-size: 20px;
     padding-top: 30px;
   }
-  .side-container{
-    display:none;
+
+  .stars-end {
+    padding-left: 45%;
   }
   .message-life {
     font-size: 20px;
@@ -38,7 +40,16 @@ span, .interactive, .begining {
 .interactive span{
   font-size: 20px;
 }
+.side-container ul.social-media::after {
+  background-color: black;
+}
+.social-media {
+  position:inherit;
+}
 
+.side-container{
+  flex-direction: column;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -49,6 +60,21 @@ span, .interactive, .begining {
   }
 }
 
+@media only screen and (min-width: 933px) {
+
+  .social-media::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: rgb(168, 178, 209);
+  }
+
+  .stars-end {
+    padding-left: 45%;
+  }
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 601px) and (max-width: 932px) {
   
@@ -64,6 +90,8 @@ span, .interactive, .begining {
   font-size: 19px;
 }
 }
+
+
 
 * {
   margin: 0;
@@ -176,14 +204,6 @@ h2, h3, h4, h5{
     font-size: 1.2em;
 }
 
-.social-media::after {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 90px;
-  margin: 0px auto;
-  background-color: rgb(168, 178, 209);
-}
 
 .linkedin{
   padding-top: 8px;
