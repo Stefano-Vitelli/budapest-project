@@ -1,8 +1,8 @@
 const RedesSociales = () => {
      return (  
-        
-        <div className="side-container">
-               <ul className="social-media">
+        <footer className="footer">
+           <div className="side-container">
+                <ul className="social-media">
 
                     <li>
                           <a href="https://github.com/Stefano-Vitelli" target="_blank" rel="nofollow noopener noreferrer">
@@ -20,7 +20,9 @@ const RedesSociales = () => {
                     </li>
                
                </ul>
-          </div>    
+          </div> 
+
+          </footer>   
           );
 }
 

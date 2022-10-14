@@ -1,4 +1,9 @@
+
+
+
 /* Extra small devices (phones, 600px and down) */
+
+
 @media only screen and (max-width: 600px) {
   .nav-style {
     font-size: 25px;
@@ -111,29 +116,6 @@ img.stars-paragraph {
 }
   }
 
-
-  
-
-
-@media only screen and (max-width: 590) {
-
-  .stars-end {
-    display: none;
-  }
-  .side-container .social-media{
-    flex-direction: column;
-  }
-
-  .side-container {
-    width: 40px;
-  
-    bottom: 0px;
-    left: 40px;
-    right: auto;
-    z-index: 10;
-    color: rgb(168, 178, 209);
-}
-}
 
 /*Bigger devices than 933px*/
 @media only screen and (min-width: 933px) {

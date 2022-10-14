@@ -27,6 +27,8 @@ const Navbar = () => {
                               What makes us different? How can we create an impact? Can we create something better? That's the idea...
                               </p>
                               
+
+                              
                               <img src="/Imagenes Web/stars-custom.svg" alt="stars-sky" className="stars-end"/>
                           </div>    
                </div>
