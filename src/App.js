@@ -38,7 +38,7 @@ export const WebRoutes = (props) => {
   return (
    <div>
       <LinksContainer>
-      <WebRoutesToPass />
+        <WebRoutesToPass />
       </LinksContainer>
   </div>
   );
