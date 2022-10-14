@@ -1,6 +1,7 @@
 const RedesSociales = () => {
      return (  
-          <div className="side-container">
+        
+        <div className="side-container">
                <ul className="social-media">
 
                     <li>
