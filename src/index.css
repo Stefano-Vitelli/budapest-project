@@ -1,6 +1,3 @@
-
-/* Extra small devices (phones, 600px and down) */
-
 @media only screen and (max-width: 600px) {
   .nav-style {
     font-size: 25px;
@@ -11,8 +8,9 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-  }
-  .social-media {
+}
+
+.social-media {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -21,28 +19,30 @@
     list-style: none;
     font-size: 1.2em;
     justify-content: space-between;
-  }
+}
 
   ul.social-media {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding-top: 4.5em;
-    padding-right: 1.4em;
+    padding-right: 3em;
     margin-bottom: 1.5em;
-  }
- 
+    margin-left: 1.8em;
+}
+
   .stars-end {
     padding-top: 50%;
-  }
+}
+
   .first-header {
     font-size: 20px;
     padding-top: 30px;
-  }
+}
 
   .stars-end {
     padding-left: 45%;
-  }
+}
 
 .own-name {
   font-size: 15px;
@@ -51,9 +51,11 @@
 .stars, .personal-logo {
   display: none;
 }
+
 .paragraph, p {
   font-size: 15px;
 }
+
 .third-header, .four-header {
   font-size: 18px;
 } 
@@ -73,13 +75,12 @@ img.stars-paragraph {
 }
 
 .side-container {
-    width: 40px;
-    
-    bottom: 0px;
-    left: 40px;
-    right: auto;
-    z-index: 10;
-    color: rgb(168, 178, 209);
+  width: 40px;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+  color: rgb(168, 178, 209);
 }
 
 .stars-end {
@@ -89,11 +90,10 @@ display: none;
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 601px) and (max-width: 932px) {
-  
   .first-header {
     font-size: 35px;
   }
-  
+
   .interactive span {
     font-size: 25px;
   }
@@ -120,31 +120,31 @@ display: none;
   margin: 0px auto;
   background-color: rgb(168, 178, 209);
 }
-  }
-
+}
 
 /*Bigger devices than 933px*/
 @media only screen and (min-width: 933px) {
-
   .social-media::after {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 90px;
-    margin: 0px auto;
-    background-color: rgb(168, 178, 209);
-  }
-  .side-container {
-    width: 40px;
-    position: fixed;
-    bottom: 0px;
-    left: 40px;
-    right: auto;
-    z-index: 10;
-    color: rgb(168, 178, 209);}
-
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: rgb(168, 178, 209);
 }
 
+.side-container {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+  color: rgb(168, 178, 209);
+}
+}
+
+/*General CSS*/
 * {
   margin: 0;
   padding: 0;
@@ -174,6 +174,7 @@ ul .social-media {
   -webkit-box-align: center;
   align-items: center;
 }
+
 .begining {
     background-image: url("/public/Imagenes\ Web/earth.avif");
     background-position: top;
@@ -184,18 +185,17 @@ ul .social-media {
 }
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .main-content {
   margin: 0px auto;
   max-width: 1600px;
   min-height: 100vh;
-  
 }
 
 .section-container {
@@ -242,20 +242,19 @@ h2, h3, h4, h5{
 }
 
 .side-container {
-    width: 40px;
-    bottom: 0px;
-    left: 40px;
-    right: auto;
-    z-index: 10;
-    color: rgb(168, 178, 209);
+  width: 40px;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+  color: rgb(168, 178, 209);
 }
 
 .social-media {
-    display: inline-block;
-    font-size: 1.2em;
-    margin-left: 1em;
-    list-style: none;
-    
+  display: inline-block;
+  font-size: 1.2em;
+  margin-left: 1em;
+  list-style: none;   
 }
 
 .stars {
@@ -294,29 +293,29 @@ p {
 }
 
 .ordered-list {
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
 }
 
 ol a {
-    display: inline-block;
-    text-decoration: none;
-    text-decoration-skip-ink: auto;
-    color: inherit;
-    position: relative;
-    transition: all 0.95s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-    cursor: pointer;
-    padding-left: 2em;
-    font-size: 0.7em;
-    padding-right: 2.5em;
-    font-family: 'Times New Roman';
-    color:#ccc;
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  transition: all 0.95s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  cursor: pointer;
+  padding-left: 2em;
+  font-size: 0.7em;
+  padding-right: 2.5em;
+  font-family: 'Times New Roman';
+  color:#ccc;
 }
 
 span {
@@ -330,18 +329,17 @@ ol a:hover {
 
 
 .nav-style {
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    color: rgb(204, 214, 246);
-    font-family: "Times New Roman";
-    counter-reset: item 0;
-    z-index: 12;
-  
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  color: rgb(204, 214, 246);
+  font-family: "Times New Roman";
+  counter-reset: item 0;
+  z-index: 12;
 }
 
 ol {
@@ -353,17 +351,17 @@ ol {
 }
 
 h3 {
-    padding-top: 10%;
-    position: relative;
-    display: flex;
-    -webkit-box-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0px 40px;
-    width: 100%;
-    white-space: nowrap;
-    font-size: 32px;
-    color:#f3da35;
+  padding-top: 10%;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 40px;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 32px;
+  color:#f3da35;
 }
 
 .stars-paragraph {
@@ -372,8 +370,8 @@ h3 {
 
 .stars-end {
   margin-left: 48%;
-    margin-right: 48%;
-    padding-top: 4.5em;
+  margin-right: 48%;
+  padding-top: 4.5em;
 }
 
 
