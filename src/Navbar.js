@@ -7,7 +7,7 @@ const Navbar = () => {
                <Typewriter className="text-change"
                     typeSpeed={86}
                     delaySpeed={20000}
-                    words={["Nothing is permanent, but change."]} />
+                    words={["Nothing permanent, but change."]} />
           </div>
                <h1 className="first-header">I'm Stefano Vitelli</h1>
                <h2 className="own-name"> Trainee Web Developer</h2>
