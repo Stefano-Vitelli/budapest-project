@@ -12,7 +12,7 @@ const Navbar = () => {
                <h1 className="first-header">I'm Stefano Vitelli</h1>
                <h2 className="own-name"> Trainee Web Developer</h2>
                <img src="/web-images/stars-custom.svg" alt="stars-sky" className="stars-paragraph"/>
-          <div className="paragraph">git
+          <div className="paragraph">
                <h3 className="third-header">About me</h3>
                     <p>
                     My name is Stefano Vitelli, a very passionate and dedicate Trainee Web Developer.<br/>
