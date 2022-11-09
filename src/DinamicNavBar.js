@@ -15,7 +15,7 @@ const DinamicNavBar = () => {
           <ol className="ordered-list">
             <li className="life-resume">
               <a
-                href="/cv.pdf"
+                href="/curriculum-vitae.pdf"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
               >
