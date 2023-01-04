@@ -1,5 +1,5 @@
 const DinamicNavBar = () => {
-  return ( 
+  return (
     <header className="navegation">
       <nav className="nav-style">
         <div className="personal-logo">
@@ -19,7 +19,7 @@ const DinamicNavBar = () => {
                 target="_blank"
                 rel="nofollow noopener noreferrer"
               >
-                  Life Resume
+                Life Resume
               </a>
             </li>
             <li className="ContactMe">
@@ -36,6 +36,6 @@ const DinamicNavBar = () => {
       </nav>
     </header>
   );
-}
- 
+};
+
 export default DinamicNavBar;

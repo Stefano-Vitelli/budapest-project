@@ -1,91 +1,93 @@
 @media only screen and (max-width: 600px) {
   .nav-style {
-  font-size: 25px;
-  padding-top: 4%;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
+    font-size: 25px;
+    padding-top: 4%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
 
-.social-media {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-  font-size: 1.2em;
-  justify-content: space-between;
-}
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 1.2em;
+    justify-content: space-between;
+  }
 
-ul.social-media {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding-top: 4.5em;
-  padding-right: 3em;
-  margin-bottom: 1.5em;
-  margin-left: 1.8em;
-}
+  ul.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 4.5em;
+    padding-right: 3em;
+    margin-bottom: 1.5em;
+    margin-left: 1.8em;
+  }
 
-.stars-end {
-  padding-top: 50%;
-}
+  .stars-end {
+    padding-top: 50%;
+  }
 
-.first-header {
-  font-size: 20px;
-  padding-top: 30px;
-}
+  .first-header {
+    font-size: 20px;
+    padding-top: 30px;
+  }
 
-.stars-end {
-  padding-left: 45%;
-}
+  .stars-end {
+    padding-left: 45%;
+  }
 
-.own-name {
-  font-size: 15px;
-}
+  .own-name {
+    font-size: 15px;
+  }
 
-.stars, .personal-logo {
-  display: none;
-}
+  .stars,
+  .personal-logo {
+    display: none;
+  }
 
-.paragraph, p {
-  font-size: 15px;
-}
+  .paragraph,
+  p {
+    font-size: 15px;
+  }
 
-.third-header, .four-header {
-  font-size: 18px;
-} 
+  .third-header,
+  .four-header {
+    font-size: 18px;
+  }
 
-.interactive span {
-  font-size: 15px;
-  padding-left: 0.8em;
-  margin-inline-start: 1em;
-  margin-inline-end: 1em;
-  margin-right: 1em;
-  margin-left: 1em;
-}
+  .interactive span {
+    font-size: 15px;
+    padding-left: 0.8em;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
 
+  img.stars-paragraph {
+    font-weight: 12px;
+  }
 
-img.stars-paragraph {
-  font-weight: 12px;
-}
+  .side-container {
+    width: 40px;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+  }
 
-.side-container {
-  width: 40px;
-  bottom: 0px;
-  left: 40px;
-  right: auto;
-  z-index: 10;
-  color: rgb(168, 178, 209);
-}
-
-.stars-end {
-display: none;
-}
+  .stars-end {
+    display: none;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -97,8 +99,10 @@ display: none;
   .interactive span {
     font-size: 25px;
   }
-  
-  .third-header, p, .four-header {
+
+  .third-header,
+  p,
+  .four-header {
     font-size: 19px;
   }
 
@@ -176,12 +180,12 @@ ul .social-media {
 }
 
 .begining {
-    background-image: url("/public/web-images/earth.avif");
-    background-position: top;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-image: url("/public/web-images/earth.avif");
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 p {
@@ -220,20 +224,23 @@ h4 {
 }
 
 .interactive {
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   font-size: 50px;
   padding-top: 20%;
 }
 
-h1{
-  color: #fff; 
+h1 {
+  color: #fff;
 }
 
-h2{
+h2 {
   font-size: 25px;
 }
 
-h2, h3, h4, h5{
+h2,
+h3,
+h4,
+h5 {
   color: #ccc;
 }
 
@@ -254,7 +261,7 @@ h2, h3, h4, h5{
   display: inline-block;
   font-size: 1.2em;
   margin-left: 1em;
-  list-style: none;   
+  list-style: none;
 }
 
 .stars {
@@ -270,7 +277,7 @@ h2, h3, h4, h5{
 .iconoGitHub:hover {
   cursor: pointer;
   font-size: 15px;
-  border-radius: 30%; 
+  border-radius: 30%;
 }
 
 .logo-whatsapp:hover {
@@ -289,7 +296,7 @@ li {
 
 p {
   padding-left: 20%;
-  padding-right: 20%;  
+  padding-right: 20%;
 }
 
 .ordered-list {
@@ -314,8 +321,8 @@ ol a {
   padding-left: 2em;
   font-size: 0.7em;
   padding-right: 2.5em;
-  font-family: 'Times New Roman';
-  color:#ccc;
+  font-family: "Times New Roman";
+  color: #ccc;
 }
 
 span {
@@ -326,7 +333,6 @@ span {
 ol a:hover {
   color: #f3da35;
 }
-
 
 .nav-style {
   display: flex;
@@ -361,7 +367,7 @@ h3 {
   width: 100%;
   white-space: nowrap;
   font-size: 32px;
-  color:#f3da35;
+  color: #f3da35;
 }
 
 .stars-paragraph {
