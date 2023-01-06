@@ -24,16 +24,20 @@ const Navbar = () => {
           My name is Stefano Vitelli, a very passionate and dedicate Trainee Web
           Developer.
           <br />
-          My aim is to become a Full Stack Developer and to achieve this I have been working from the base of HTML, CSS and Javascript to React js and Node Js to create powerful websites. <br />
+          My aim is to become a Full Stack Developer and to achieve this I have
+          been working from the base of HTML, CSS and Javascript to React js and
+          Node Js to create powerful websites. <br />
           <br />
         </p>
         <h3 className="four-header">Values</h3>
         <p className="second-paragraph">
-          I believe that being dedicate, hard working, communicative, passionate about what you
-          do and always keeping the best attitude into a working team, is the
-          key to face each project and create something really good. <br />
+          I believe that being dedicate, hard working, communicative, passionate
+          about what you do and always keeping the best attitude into a working
+          team, is the key to face each project and create something really
+          good. <br />
           <br />
-          I am always eager to work in real projects to solve real issues.<br />
+          I am always eager to start working in real projects that solves real issues.
+          <br />
           <img
             src="/web-images/stars-custom.svg"
             alt="stars-sky"
