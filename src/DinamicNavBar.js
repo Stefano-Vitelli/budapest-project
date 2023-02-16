@@ -13,6 +13,15 @@ const DinamicNavBar = () => {
         </div>
         <div className="information">
           <ol className="ordered-list">
+          <li className="ContactMe">
+              <a
+                href="https://github.com/Stefano-Vitelli"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Portfolio
+              </a>
+            </li>
             <li className="life-resume">
               <a
                 href="/CurriculumVitae.pdf"
